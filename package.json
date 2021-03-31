@@ -4,6 +4,7 @@
   "description": "This repo creates an api for pokedex using https://pokeapi.co/",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/mhsalves/api-pokedex/issues"
   },
-  "homepage": "https://github.com/mhsalves/api-pokedex#readme"
+  "homepage": "https://github.com/mhsalves/api-pokedex#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
